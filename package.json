@@ -1,0 +1,8 @@
+{
+  "description": "Hello World! Tutorial chute",
+  "name": "venus-hello",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

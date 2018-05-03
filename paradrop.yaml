@@ -1,0 +1,9 @@
+command: node index.js
+config:
+  web:
+    port: 3000
+description: Hello World! Tutorial chute
+name: venus-hello
+type: light
+use: node
+version: 1
