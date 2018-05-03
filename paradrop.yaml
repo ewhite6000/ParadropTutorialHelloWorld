@@ -4,6 +4,9 @@ config:
     port: 3000
 description: Hello World! Tutorial chute
 name: venus-hello
+source:
+  type: git
+  url: https://github.com/ewhite6000/ParadropTutorialHelloWorld
 type: light
 use: node
 version: 1

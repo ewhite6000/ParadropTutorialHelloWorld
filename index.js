@@ -3,7 +3,7 @@ const app = express()
 
 app.get('/', function (req, res) {
 	console.log('Received a request from: ' + req.ip)
-	res.send('Hello World!')
+	res.send('Hello, ' + req.headers['user agent'] + '!')
 })
 
 app.listen(3000, function () {
